@@ -22,5 +22,4 @@ public class GirraffeFamily {
 	public static void eatLeaf() {
 		System.out.println("Eat leaf.");
 	}
-	
 }
