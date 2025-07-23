@@ -1,23 +1,14 @@
 package inhiretanceA;
 
 public class Okapi extends GirraffeFamily{
-	
-	static {System.out.print("F");}
-	
-	public Okapi(int stripes) {
-		super("sugar");
-		System.out.print("G");
+
+	protected Okapi(String stars) {
+		super(2L);
 	}
 	
-	{System.out.print("H");}
-//	public static void eatLeaf() {
-//		System.out.println("I don't eat leaf.");
-//	}
-	public static void main(String[] args) {
-		eatLeaf();
+	public Okapi() {
+		super(5);
 	}
+	
 	
 }
-
-//AFBECHG
-//BECHG
