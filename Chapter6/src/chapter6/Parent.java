@@ -1,7 +1,6 @@
 package chapter6;
 
 public class Parent {
-	public static void testHide(int a) {
-		
-	}
+	 String name;
+	void setName(String q) {name = q;}
 }
